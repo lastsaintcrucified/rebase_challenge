@@ -1,4 +1,5 @@
 import "./App.css";
+import Biology from "./biology/biology";
 import Review from "./review/review";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <p>My really cool blog site</p>
       </header>
       <Review />
+      <Biology />
     </div>
   );
 }
